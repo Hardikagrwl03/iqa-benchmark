@@ -1,3 +1,6 @@
 image-quality-assessment/
 hyperIQA/
 LAR-IQA/
+ARNIQA/
+IQA-PyTorch/
+arniqa_test/ARNIQA_resnet50.pth
