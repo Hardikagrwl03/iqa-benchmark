@@ -1,0 +1,1279 @@
+Loaded: ARNIQA_mobilenet.pth
+Tensors found: 244
+----------------------------------------------------------------------------------------------------
+encoder.model.0.0.0.weight
+  shape: 16x3x3x3
+  dtype: torch.float32
+  elements: 432
+  inferred: Conv-like: input_channels=3, output_channels=16, kernel_size=(3, 3)
+
+encoder.model.0.0.1.weight
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.0.1.bias
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.0.1.running_mean
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.0.1.running_var
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.1.block.0.0.weight
+  shape: 16x1x3x3
+  dtype: torch.float32
+  elements: 144
+  inferred: Conv-like: input_channels=1, output_channels=16, kernel_size=(3, 3)
+
+encoder.model.0.1.block.0.1.weight
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.0.1.bias
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.0.1.running_mean
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.0.1.running_var
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.1.block.1.fc1.weight
+  shape: 8x16x1x1
+  dtype: torch.float32
+  elements: 128
+  inferred: Conv-like: input_channels=16, output_channels=8, kernel_size=(1, 1)
+
+encoder.model.0.1.block.1.fc1.bias
+  shape: 8
+  dtype: torch.float32
+  elements: 8
+
+encoder.model.0.1.block.1.fc2.weight
+  shape: 16x8x1x1
+  dtype: torch.float32
+  elements: 128
+  inferred: Conv-like: input_channels=8, output_channels=16, kernel_size=(1, 1)
+
+encoder.model.0.1.block.1.fc2.bias
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.2.0.weight
+  shape: 16x16x1x1
+  dtype: torch.float32
+  elements: 256
+  inferred: Conv-like: input_channels=16, output_channels=16, kernel_size=(1, 1)
+
+encoder.model.0.1.block.2.1.weight
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.2.1.bias
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.2.1.running_mean
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.2.1.running_var
+  shape: 16
+  dtype: torch.float32
+  elements: 16
+
+encoder.model.0.1.block.2.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.2.block.0.0.weight
+  shape: 72x16x1x1
+  dtype: torch.float32
+  elements: 1152
+  inferred: Conv-like: input_channels=16, output_channels=72, kernel_size=(1, 1)
+
+encoder.model.0.2.block.0.1.weight
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.0.1.bias
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.0.1.running_mean
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.0.1.running_var
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.2.block.1.0.weight
+  shape: 72x1x3x3
+  dtype: torch.float32
+  elements: 648
+  inferred: Conv-like: input_channels=1, output_channels=72, kernel_size=(3, 3)
+
+encoder.model.0.2.block.1.1.weight
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.1.1.bias
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.1.1.running_mean
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.1.1.running_var
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.2.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.2.block.2.0.weight
+  shape: 24x72x1x1
+  dtype: torch.float32
+  elements: 1728
+  inferred: Conv-like: input_channels=72, output_channels=24, kernel_size=(1, 1)
+
+encoder.model.0.2.block.2.1.weight
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.2.block.2.1.bias
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.2.block.2.1.running_mean
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.2.block.2.1.running_var
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.2.block.2.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.3.block.0.0.weight
+  shape: 88x24x1x1
+  dtype: torch.float32
+  elements: 2112
+  inferred: Conv-like: input_channels=24, output_channels=88, kernel_size=(1, 1)
+
+encoder.model.0.3.block.0.1.weight
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.0.1.bias
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.0.1.running_mean
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.0.1.running_var
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.3.block.1.0.weight
+  shape: 88x1x3x3
+  dtype: torch.float32
+  elements: 792
+  inferred: Conv-like: input_channels=1, output_channels=88, kernel_size=(3, 3)
+
+encoder.model.0.3.block.1.1.weight
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.1.1.bias
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.1.1.running_mean
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.1.1.running_var
+  shape: 88
+  dtype: torch.float32
+  elements: 88
+
+encoder.model.0.3.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.3.block.2.0.weight
+  shape: 24x88x1x1
+  dtype: torch.float32
+  elements: 2112
+  inferred: Conv-like: input_channels=88, output_channels=24, kernel_size=(1, 1)
+
+encoder.model.0.3.block.2.1.weight
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.3.block.2.1.bias
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.3.block.2.1.running_mean
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.3.block.2.1.running_var
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.3.block.2.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.4.block.0.0.weight
+  shape: 96x24x1x1
+  dtype: torch.float32
+  elements: 2304
+  inferred: Conv-like: input_channels=24, output_channels=96, kernel_size=(1, 1)
+
+encoder.model.0.4.block.0.1.weight
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.0.1.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.0.1.running_mean
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.0.1.running_var
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.4.block.1.0.weight
+  shape: 96x1x5x5
+  dtype: torch.float32
+  elements: 2400
+  inferred: Conv-like: input_channels=1, output_channels=96, kernel_size=(5, 5)
+
+encoder.model.0.4.block.1.1.weight
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.1.1.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.1.1.running_mean
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.1.1.running_var
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.4.block.2.fc1.weight
+  shape: 24x96x1x1
+  dtype: torch.float32
+  elements: 2304
+  inferred: Conv-like: input_channels=96, output_channels=24, kernel_size=(1, 1)
+
+encoder.model.0.4.block.2.fc1.bias
+  shape: 24
+  dtype: torch.float32
+  elements: 24
+
+encoder.model.0.4.block.2.fc2.weight
+  shape: 96x24x1x1
+  dtype: torch.float32
+  elements: 2304
+  inferred: Conv-like: input_channels=24, output_channels=96, kernel_size=(1, 1)
+
+encoder.model.0.4.block.2.fc2.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.4.block.3.0.weight
+  shape: 40x96x1x1
+  dtype: torch.float32
+  elements: 3840
+  inferred: Conv-like: input_channels=96, output_channels=40, kernel_size=(1, 1)
+
+encoder.model.0.4.block.3.1.weight
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.4.block.3.1.bias
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.4.block.3.1.running_mean
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.4.block.3.1.running_var
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.4.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.5.block.0.0.weight
+  shape: 240x40x1x1
+  dtype: torch.float32
+  elements: 9600
+  inferred: Conv-like: input_channels=40, output_channels=240, kernel_size=(1, 1)
+
+encoder.model.0.5.block.0.1.weight
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.0.1.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.0.1.running_mean
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.0.1.running_var
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.5.block.1.0.weight
+  shape: 240x1x5x5
+  dtype: torch.float32
+  elements: 6000
+  inferred: Conv-like: input_channels=1, output_channels=240, kernel_size=(5, 5)
+
+encoder.model.0.5.block.1.1.weight
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.1.1.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.1.1.running_mean
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.1.1.running_var
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.5.block.2.fc1.weight
+  shape: 64x240x1x1
+  dtype: torch.float32
+  elements: 15360
+  inferred: Conv-like: input_channels=240, output_channels=64, kernel_size=(1, 1)
+
+encoder.model.0.5.block.2.fc1.bias
+  shape: 64
+  dtype: torch.float32
+  elements: 64
+
+encoder.model.0.5.block.2.fc2.weight
+  shape: 240x64x1x1
+  dtype: torch.float32
+  elements: 15360
+  inferred: Conv-like: input_channels=64, output_channels=240, kernel_size=(1, 1)
+
+encoder.model.0.5.block.2.fc2.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.5.block.3.0.weight
+  shape: 40x240x1x1
+  dtype: torch.float32
+  elements: 9600
+  inferred: Conv-like: input_channels=240, output_channels=40, kernel_size=(1, 1)
+
+encoder.model.0.5.block.3.1.weight
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.5.block.3.1.bias
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.5.block.3.1.running_mean
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.5.block.3.1.running_var
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.5.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.6.block.0.0.weight
+  shape: 240x40x1x1
+  dtype: torch.float32
+  elements: 9600
+  inferred: Conv-like: input_channels=40, output_channels=240, kernel_size=(1, 1)
+
+encoder.model.0.6.block.0.1.weight
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.0.1.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.0.1.running_mean
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.0.1.running_var
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.6.block.1.0.weight
+  shape: 240x1x5x5
+  dtype: torch.float32
+  elements: 6000
+  inferred: Conv-like: input_channels=1, output_channels=240, kernel_size=(5, 5)
+
+encoder.model.0.6.block.1.1.weight
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.1.1.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.1.1.running_mean
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.1.1.running_var
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.6.block.2.fc1.weight
+  shape: 64x240x1x1
+  dtype: torch.float32
+  elements: 15360
+  inferred: Conv-like: input_channels=240, output_channels=64, kernel_size=(1, 1)
+
+encoder.model.0.6.block.2.fc1.bias
+  shape: 64
+  dtype: torch.float32
+  elements: 64
+
+encoder.model.0.6.block.2.fc2.weight
+  shape: 240x64x1x1
+  dtype: torch.float32
+  elements: 15360
+  inferred: Conv-like: input_channels=64, output_channels=240, kernel_size=(1, 1)
+
+encoder.model.0.6.block.2.fc2.bias
+  shape: 240
+  dtype: torch.float32
+  elements: 240
+
+encoder.model.0.6.block.3.0.weight
+  shape: 40x240x1x1
+  dtype: torch.float32
+  elements: 9600
+  inferred: Conv-like: input_channels=240, output_channels=40, kernel_size=(1, 1)
+
+encoder.model.0.6.block.3.1.weight
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.6.block.3.1.bias
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.6.block.3.1.running_mean
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.6.block.3.1.running_var
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.6.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.7.block.0.0.weight
+  shape: 120x40x1x1
+  dtype: torch.float32
+  elements: 4800
+  inferred: Conv-like: input_channels=40, output_channels=120, kernel_size=(1, 1)
+
+encoder.model.0.7.block.0.1.weight
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.0.1.bias
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.0.1.running_mean
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.0.1.running_var
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.7.block.1.0.weight
+  shape: 120x1x5x5
+  dtype: torch.float32
+  elements: 3000
+  inferred: Conv-like: input_channels=1, output_channels=120, kernel_size=(5, 5)
+
+encoder.model.0.7.block.1.1.weight
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.1.1.bias
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.1.1.running_mean
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.1.1.running_var
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.7.block.2.fc1.weight
+  shape: 32x120x1x1
+  dtype: torch.float32
+  elements: 3840
+  inferred: Conv-like: input_channels=120, output_channels=32, kernel_size=(1, 1)
+
+encoder.model.0.7.block.2.fc1.bias
+  shape: 32
+  dtype: torch.float32
+  elements: 32
+
+encoder.model.0.7.block.2.fc2.weight
+  shape: 120x32x1x1
+  dtype: torch.float32
+  elements: 3840
+  inferred: Conv-like: input_channels=32, output_channels=120, kernel_size=(1, 1)
+
+encoder.model.0.7.block.2.fc2.bias
+  shape: 120
+  dtype: torch.float32
+  elements: 120
+
+encoder.model.0.7.block.3.0.weight
+  shape: 48x120x1x1
+  dtype: torch.float32
+  elements: 5760
+  inferred: Conv-like: input_channels=120, output_channels=48, kernel_size=(1, 1)
+
+encoder.model.0.7.block.3.1.weight
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.7.block.3.1.bias
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.7.block.3.1.running_mean
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.7.block.3.1.running_var
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.7.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.8.block.0.0.weight
+  shape: 144x48x1x1
+  dtype: torch.float32
+  elements: 6912
+  inferred: Conv-like: input_channels=48, output_channels=144, kernel_size=(1, 1)
+
+encoder.model.0.8.block.0.1.weight
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.0.1.bias
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.0.1.running_mean
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.0.1.running_var
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.8.block.1.0.weight
+  shape: 144x1x5x5
+  dtype: torch.float32
+  elements: 3600
+  inferred: Conv-like: input_channels=1, output_channels=144, kernel_size=(5, 5)
+
+encoder.model.0.8.block.1.1.weight
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.1.1.bias
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.1.1.running_mean
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.1.1.running_var
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.8.block.2.fc1.weight
+  shape: 40x144x1x1
+  dtype: torch.float32
+  elements: 5760
+  inferred: Conv-like: input_channels=144, output_channels=40, kernel_size=(1, 1)
+
+encoder.model.0.8.block.2.fc1.bias
+  shape: 40
+  dtype: torch.float32
+  elements: 40
+
+encoder.model.0.8.block.2.fc2.weight
+  shape: 144x40x1x1
+  dtype: torch.float32
+  elements: 5760
+  inferred: Conv-like: input_channels=40, output_channels=144, kernel_size=(1, 1)
+
+encoder.model.0.8.block.2.fc2.bias
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.8.block.3.0.weight
+  shape: 48x144x1x1
+  dtype: torch.float32
+  elements: 6912
+  inferred: Conv-like: input_channels=144, output_channels=48, kernel_size=(1, 1)
+
+encoder.model.0.8.block.3.1.weight
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.8.block.3.1.bias
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.8.block.3.1.running_mean
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.8.block.3.1.running_var
+  shape: 48
+  dtype: torch.float32
+  elements: 48
+
+encoder.model.0.8.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.9.block.0.0.weight
+  shape: 288x48x1x1
+  dtype: torch.float32
+  elements: 13824
+  inferred: Conv-like: input_channels=48, output_channels=288, kernel_size=(1, 1)
+
+encoder.model.0.9.block.0.1.weight
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.0.1.bias
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.0.1.running_mean
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.0.1.running_var
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.9.block.1.0.weight
+  shape: 288x1x5x5
+  dtype: torch.float32
+  elements: 7200
+  inferred: Conv-like: input_channels=1, output_channels=288, kernel_size=(5, 5)
+
+encoder.model.0.9.block.1.1.weight
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.1.1.bias
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.1.1.running_mean
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.1.1.running_var
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.9.block.2.fc1.weight
+  shape: 72x288x1x1
+  dtype: torch.float32
+  elements: 20736
+  inferred: Conv-like: input_channels=288, output_channels=72, kernel_size=(1, 1)
+
+encoder.model.0.9.block.2.fc1.bias
+  shape: 72
+  dtype: torch.float32
+  elements: 72
+
+encoder.model.0.9.block.2.fc2.weight
+  shape: 288x72x1x1
+  dtype: torch.float32
+  elements: 20736
+  inferred: Conv-like: input_channels=72, output_channels=288, kernel_size=(1, 1)
+
+encoder.model.0.9.block.2.fc2.bias
+  shape: 288
+  dtype: torch.float32
+  elements: 288
+
+encoder.model.0.9.block.3.0.weight
+  shape: 96x288x1x1
+  dtype: torch.float32
+  elements: 27648
+  inferred: Conv-like: input_channels=288, output_channels=96, kernel_size=(1, 1)
+
+encoder.model.0.9.block.3.1.weight
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.9.block.3.1.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.9.block.3.1.running_mean
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.9.block.3.1.running_var
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.9.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.10.block.0.0.weight
+  shape: 576x96x1x1
+  dtype: torch.float32
+  elements: 55296
+  inferred: Conv-like: input_channels=96, output_channels=576, kernel_size=(1, 1)
+
+encoder.model.0.10.block.0.1.weight
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.0.1.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.0.1.running_mean
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.0.1.running_var
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.10.block.1.0.weight
+  shape: 576x1x5x5
+  dtype: torch.float32
+  elements: 14400
+  inferred: Conv-like: input_channels=1, output_channels=576, kernel_size=(5, 5)
+
+encoder.model.0.10.block.1.1.weight
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.1.1.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.1.1.running_mean
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.1.1.running_var
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.10.block.2.fc1.weight
+  shape: 144x576x1x1
+  dtype: torch.float32
+  elements: 82944
+  inferred: Conv-like: input_channels=576, output_channels=144, kernel_size=(1, 1)
+
+encoder.model.0.10.block.2.fc1.bias
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.10.block.2.fc2.weight
+  shape: 576x144x1x1
+  dtype: torch.float32
+  elements: 82944
+  inferred: Conv-like: input_channels=144, output_channels=576, kernel_size=(1, 1)
+
+encoder.model.0.10.block.2.fc2.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.10.block.3.0.weight
+  shape: 96x576x1x1
+  dtype: torch.float32
+  elements: 55296
+  inferred: Conv-like: input_channels=576, output_channels=96, kernel_size=(1, 1)
+
+encoder.model.0.10.block.3.1.weight
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.10.block.3.1.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.10.block.3.1.running_mean
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.10.block.3.1.running_var
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.10.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.11.block.0.0.weight
+  shape: 576x96x1x1
+  dtype: torch.float32
+  elements: 55296
+  inferred: Conv-like: input_channels=96, output_channels=576, kernel_size=(1, 1)
+
+encoder.model.0.11.block.0.1.weight
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.0.1.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.0.1.running_mean
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.0.1.running_var
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.0.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.11.block.1.0.weight
+  shape: 576x1x5x5
+  dtype: torch.float32
+  elements: 14400
+  inferred: Conv-like: input_channels=1, output_channels=576, kernel_size=(5, 5)
+
+encoder.model.0.11.block.1.1.weight
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.1.1.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.1.1.running_mean
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.1.1.running_var
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.1.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.11.block.2.fc1.weight
+  shape: 144x576x1x1
+  dtype: torch.float32
+  elements: 82944
+  inferred: Conv-like: input_channels=576, output_channels=144, kernel_size=(1, 1)
+
+encoder.model.0.11.block.2.fc1.bias
+  shape: 144
+  dtype: torch.float32
+  elements: 144
+
+encoder.model.0.11.block.2.fc2.weight
+  shape: 576x144x1x1
+  dtype: torch.float32
+  elements: 82944
+  inferred: Conv-like: input_channels=144, output_channels=576, kernel_size=(1, 1)
+
+encoder.model.0.11.block.2.fc2.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.11.block.3.0.weight
+  shape: 96x576x1x1
+  dtype: torch.float32
+  elements: 55296
+  inferred: Conv-like: input_channels=576, output_channels=96, kernel_size=(1, 1)
+
+encoder.model.0.11.block.3.1.weight
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.11.block.3.1.bias
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.11.block.3.1.running_mean
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.11.block.3.1.running_var
+  shape: 96
+  dtype: torch.float32
+  elements: 96
+
+encoder.model.0.11.block.3.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.model.0.12.0.weight
+  shape: 576x96x1x1
+  dtype: torch.float32
+  elements: 55296
+  inferred: Conv-like: input_channels=96, output_channels=576, kernel_size=(1, 1)
+
+encoder.model.0.12.1.weight
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.12.1.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.12.1.running_mean
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.12.1.running_var
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.model.0.12.1.num_batches_tracked
+  shape: scalar
+  dtype: torch.int64
+  elements: 1
+
+encoder.projector.0.weight
+  shape: 576x576
+  dtype: torch.float32
+  elements: 331776
+  inferred: Linear-like: input=576, output=576
+
+encoder.projector.0.bias
+  shape: 576
+  dtype: torch.float32
+  elements: 576
+
+encoder.projector.2.weight
+  shape: 128x576
+  dtype: torch.float32
+  elements: 73728
+  inferred: Linear-like: input=576, output=128
+
+encoder.projector.2.bias
+  shape: 128
+  dtype: torch.float32
+  elements: 128
+
+----------------------------------------------------------------------------------------------------
+Total tensor elements: 1345362

@@ -22,16 +22,15 @@ class ARNIQA_resnet():
 
         self.device = device
 
-        self.encoder = torchvision.models.resnet50(
-            weights=torchvision.models.ResNet50_Weights.IMAGENET1K_V1
-        )  # V1 weights work better than V2
+        self.encoder = torchvision.models.resnet50(weights=None).to(device)
         self.feat_dim = self.encoder.fc.in_features
         self.encoder = nn.Sequential(*list(self.encoder.children())[:-1])
 
         encoder_state_dict = torch.load(
-            os.path.join(os.path.dirname(__file__), 'ARNIQA_resnet50.ph'),
-            map_location='cpu'
+            os.path.join(os.path.dirname(__file__), 'ARNIQA_resnet50.pth'),
+            map_location=device
         )
+        print("model loaded to device:", device)
         cleaned_encoder_state_dict = OrderedDict()
         for key, value in encoder_state_dict.items():
             # Remove the prefix
